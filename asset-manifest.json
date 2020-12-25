@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/doctors_widget/static/css/main.06c57931.chunk.css",
+    "main.js": "/doctors_widget/static/js/main.d488f133.chunk.js",
+    "main.js.map": "/doctors_widget/static/js/main.d488f133.chunk.js.map",
+    "runtime-main.js": "/doctors_widget/static/js/runtime-main.109af296.js",
+    "runtime-main.js.map": "/doctors_widget/static/js/runtime-main.109af296.js.map",
+    "static/js/2.47f800de.chunk.js": "/doctors_widget/static/js/2.47f800de.chunk.js",
+    "static/js/2.47f800de.chunk.js.map": "/doctors_widget/static/js/2.47f800de.chunk.js.map",
+    "static/js/3.89827f45.chunk.js": "/doctors_widget/static/js/3.89827f45.chunk.js",
+    "static/js/3.89827f45.chunk.js.map": "/doctors_widget/static/js/3.89827f45.chunk.js.map",
+    "index.html": "/doctors_widget/index.html",
+    "static/css/main.06c57931.chunk.css.map": "/doctors_widget/static/css/main.06c57931.chunk.css.map",
+    "static/js/2.47f800de.chunk.js.LICENSE.txt": "/doctors_widget/static/js/2.47f800de.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/doctors_widget/static/media/Montserrat-Medium.8a192d24.ttf",
+    "static/media/footer_logo.0a311d64.png": "/doctors_widget/static/media/footer_logo.0a311d64.png",
+    "static/media/header_logo.3cad28a1.png": "/doctors_widget/static/media/header_logo.3cad28a1.png",
+    "static/media/Home.scss": "/doctors_widget/static/media/top_backgroundMobile.a1385f2d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.109af296.js",
+    "static/js/2.47f800de.chunk.js",
+    "static/css/main.06c57931.chunk.css",
+    "static/js/main.d488f133.chunk.js"
+  ]
+}
