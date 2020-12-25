@@ -1,0 +1,290 @@
+footer {
+    width: 100%;
+}
+
+.footerTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-color: #424348;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 52px;
+
+    @media (max-width: 2100px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+}
+
+.footerLogo {
+    padding-left: 264px;
+    height: 155px;
+    padding-top: 145px;
+
+    @media (max-width: 2100px) {
+        padding-left: 91px;
+        padding-top: 73px;
+        height: 116px;
+    }
+}
+
+.fotterLinksList {
+    padding-top: 109px;
+    padding-left: 147px;
+    padding-right: 115px;
+
+    @media (max-width: 2500px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media (max-width: 2100px) {
+        padding-top: 86px;
+        padding-left: 112px;
+        padding-right: 36px;
+    }
+
+    li {
+        position: relative;
+        text-align: start;
+        padding-bottom: 35px;
+
+        @media (max-width: 2100px) {
+            padding-bottom: 42px;
+        }
+    }
+
+    li::before {
+        content: "•";
+        position: absolute;
+        color: #95c122;
+        top: -65px;
+        left: -26px;
+        font-size: 123px;
+
+        @media (max-width: 2100px) {
+            top: -80px;
+            left: -29px;
+            font-size: 154px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-size: 34px;
+        padding-left: 33px;
+
+        @media (max-width: 2100px) {
+            font-size: 46px;
+            padding-left: 49px;
+        }
+    }
+}
+
+.phoneWrapperFooter {
+    padding-right: 255px;
+    padding-top: 111px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    @media (max-width: 2100px) {
+        padding-right: 0;
+        padding-top: 25px;
+        padding-left: 48px;
+    }
+}
+
+.phoneFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Montserrat-Black";
+    color: white;
+    font-size: 36px;
+    padding-right: 19px;
+    padding-top: 14px;
+    white-space: nowrap;
+
+    @media (max-width: 2100px) {
+        font-size: 43px;
+    }
+
+    &__image {
+        padding-right: 29px;
+        height: 42px;
+
+        @media (max-width: 2100px) {
+            height: 66px;
+            padding-left: 39px;
+        }
+    }
+
+    &__index {
+        padding-right: 13px;
+
+        @media (max-width: 2100px) {
+            padding-right: 20px;
+        }
+    }
+
+    &__number {
+        @media (max-width: 2100px) {
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.serviceButtonFooter,
+.callButtonFooter {
+    background-color: #95c124;
+    color: white;
+    border: 5px solid #95c124;
+    -webkit-transition: background-color 1s, color 1s;
+    -o-transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s;
+    width: 378px;
+    height: 67px;
+    margin-top: 40px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: "Montserrat-bold";
+
+    @media (max-width: 2100px) {
+        width: 945px;
+        height: 150px;
+        margin-top: 40px;
+        border-radius: 44px;
+        font-size: 47px;
+        margin-bottom: 4px;
+    }
+
+    @media (max-width: 1200px) {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: 20px auto;
+    }
+}
+
+.serviceButtonFooter {
+    margin-top: 29px;
+}
+
+.serviceButtonFooter:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #95c124;
+}
+
+.callButtonFooter {
+    background-color: #424348;
+    color: white;
+    border: 5px solid white;
+}
+
+.callButtonFooter:hover {
+    color: #424348;
+    background-color: white;
+}
+
+.footerBottom {
+    background-color: #3c3b40;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 267px;
+    padding-top: 71px;
+    padding-bottom: 65px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 384px;
+
+    @media (max-width: 2100px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        padding-left: 0;
+        padding-top: 79px;
+    }
+
+    &__text {
+        color: #9a9a9a;
+        font-size: 29px;
+        white-space: nowrap;
+
+        @media (max-width: 2100px) {
+            padding-left: 46px;
+            font-size: 39px;
+            padding-bottom: 35px;
+        }
+    }
+
+    &__linksWrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+        .footerBottom__text {
+            padding-left: 80px;
+
+            @media (max-width: 2100px) {
+                padding-left: 28px;
+                font-size: 39px;
+                padding-right: 13px;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+.footerListsWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footerButtonsWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    @media (max-width: 2100px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        padding-top: 71px;
+    }
+}
