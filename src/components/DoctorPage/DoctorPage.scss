@@ -11,5 +11,10 @@
 
     &__image {
         min-height: 600px;
+
+        @media (max-width: 900px) {
+            min-height: auto;
+            width: 100vw;
+        }
     }
 }
