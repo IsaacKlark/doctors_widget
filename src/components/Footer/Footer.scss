@@ -9,18 +9,18 @@ footer {
     width: 100%;
     background-color: #424348;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding-bottom: 52px;
 
     @media (max-width: 2100px) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
     }
 }
 
@@ -33,6 +33,18 @@ footer {
         padding-left: 91px;
         padding-top: 73px;
         height: 116px;
+    }
+
+    @media (max-width: 900px) {
+        padding-left: 40px;
+        padding-top: 40px;
+        height: 67px;
+    }
+
+    @media (max-width: 600px) {
+        padding-left: 20px;
+        padding-top: 27px;
+        height: 58px;
     }
 }
 
@@ -52,6 +64,16 @@ footer {
         padding-right: 36px;
     }
 
+    @media (max-width: 900px) {
+        padding-left: 39px;
+        padding-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+        padding-left: 0px;
+        padding-top: 22px;
+    }
+
     li {
         position: relative;
         text-align: start;
@@ -59,6 +81,10 @@ footer {
 
         @media (max-width: 2100px) {
             padding-bottom: 42px;
+        }
+
+        @media (max-width: 900px) {
+            padding-bottom: 22px;
         }
     }
 
@@ -75,6 +101,18 @@ footer {
             left: -29px;
             font-size: 154px;
         }
+
+        @media (max-width: 900px) {
+            font-size: 100px;
+            top: -50px;
+            left: 5px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 72px;
+            top: -38px;
+            left: 21px;
+        }
     }
 
     &__link {
@@ -87,6 +125,14 @@ footer {
             font-size: 46px;
             padding-left: 49px;
         }
+
+        @media (max-width: 900px) {
+            font-size: 30px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 19px;
+        }
     }
 }
 
@@ -98,13 +144,17 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 
     @media (max-width: 2100px) {
         padding-right: 0;
         padding-top: 25px;
         padding-left: 48px;
+    }
+
+    @media (max-width: 600px) {
+        padding-left: 25px;
     }
 }
 
@@ -113,8 +163,8 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-family: "Montserrat-Black";
     color: white;
     font-size: 36px;
@@ -126,6 +176,14 @@ footer {
         font-size: 43px;
     }
 
+    @media (max-width: 900px) {
+        font-size: 27px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 24px;
+    }
+
     &__image {
         padding-right: 29px;
         height: 42px;
@@ -133,6 +191,12 @@ footer {
         @media (max-width: 2100px) {
             height: 66px;
             padding-left: 39px;
+        }
+
+        @media (max-width: 900px) {
+            height: 34px;
+            padding-left: 2px;
+            padding-right: 10px;
         }
     }
 
@@ -182,6 +246,18 @@ footer {
         width: max-content;
         margin: 20px auto;
     }
+
+    @media (max-width: 900px) {
+        font-size: 28px;
+        height: 93px;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 25px;
+    }
 }
 
 .serviceButtonFooter {
@@ -215,22 +291,26 @@ footer {
     padding-top: 71px;
     padding-bottom: 65px;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding-right: 384px;
 
     @media (max-width: 2100px) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
         padding-left: 0;
         padding-top: 79px;
+    }
+
+    @media (max-width: 900px) {
+        padding: 40px 0;
     }
 
     &__text {
@@ -243,6 +323,15 @@ footer {
             font-size: 39px;
             padding-bottom: 35px;
         }
+
+        @media (max-width: 900px) {
+            font-size: 23px;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 13px;
+            padding-bottom: 23px;
+        }
     }
 
     &__linksWrapper {
@@ -250,7 +339,11 @@ footer {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        @media (max-width: 900px) {
+            padding-left: 20px;
+        }
 
         .footerBottom__text {
             padding-left: 80px;
@@ -260,6 +353,16 @@ footer {
                 font-size: 39px;
                 padding-right: 13px;
                 padding-bottom: 0;
+            }
+
+            @media (max-width: 900px) {
+                font-size: 23px;
+            }
+
+            @media (max-width: 600px) {
+                font-size: 23px;
+                padding-left: 31px;
+                font-size: 13px;
             }
         }
     }
@@ -277,14 +380,18 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 
     @media (max-width: 2100px) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
         padding-top: 71px;
+    }
+
+    @media (max-width: 600px) {
+        padding-top: 21px;
     }
 }
